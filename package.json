@@ -1,7 +1,7 @@
 {
   "name": "now-express",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "license": "MIT",
   "dependencies": {
     "eslint": "^6.8.0",
@@ -14,5 +14,8 @@
     "prettier": "prettier --write *.{js,json}",
     "nodemon": "nodemon --exec \"npm run start\"",
     "start": "node src"
+  },
+  "engines": {
+    "node": "12.x"
   }
 }
