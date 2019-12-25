@@ -17,11 +17,9 @@ app.get("/", (req, res) => {
 });
 
 app.get("/get", (req, res) => {
-  res.json({
-    version: process.env.VERSION
-  });
+  res.json(req.query);
 });
 
 app.post("/post", (req, res) => {
-  res.send(req.body);
+  res.json(req.body);
 });
