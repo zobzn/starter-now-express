@@ -1,5 +1,0 @@
-{
-  "verbose": false,
-  "watch": ["package.json", "nodemon.json", "src/*"],
-  "ignore": ["node_modules/*", "package-lock.json"]
-}

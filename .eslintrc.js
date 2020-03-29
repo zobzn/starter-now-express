@@ -3,10 +3,10 @@ module.exports = {
     commonjs: true,
     browser: true,
     node: true,
-    es6: true
+    es6: true,
   },
   extends: "eslint:recommended",
   parserOptions: {
-    ecmaVersion: 2018
-  }
+    ecmaVersion: 2018,
+  },
 };
