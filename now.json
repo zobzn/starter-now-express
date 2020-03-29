@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "now-express",
+  "alias": "now-express",
   "builds": [
     {
       "src": "public/**/*",
