@@ -12,7 +12,7 @@
     "consolidate": "^0.15.1",
     "cors": "^2.8.5",
     "ejs": "^3.0.1",
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
